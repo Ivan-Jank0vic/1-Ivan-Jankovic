@@ -2,3 +2,13 @@
 {
 }
 
+/*  botuni moraju biti <a> element
+      moraju imati laganu tranziciju
+      na :hover stanje
+      koristiti :transition property
+    
+      ne odvojenu klasu za :hover
+    
+      DRY i box sizing
+    
+      redove prelomit sa <div> */
