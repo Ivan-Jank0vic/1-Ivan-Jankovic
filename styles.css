@@ -1,12 +1,53 @@
 ﻿body
 {
+    font-family: 'Helvetica', 'Arial', sans-serif;
     box-sizing: border-box;
 }
-.wrap{
+.main{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 115vh;
+    min-height: 100vh;
+}
+.button{
+    padding: 20px;
+    font-weight: bold;
+
+}
+.btn{
+    display: block;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: rgb(91, 91, 247);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.scnd-btn{
+    display: block;
+    border: solid 2px;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background: white;
+    color: rgb(91, 91, 247);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.btn:focus{
+    
+}
+.btn:hover{
+    background: rgb(48, 48, 170);
+}
+
+.scnd-btn:hover{
+    background: rgb(230, 230, 243);
+
 }
 
 /*  botuni moraju biti <a> element
