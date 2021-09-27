@@ -1,62 +1,47 @@
-﻿body
-{
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    box-sizing: border-box;
+﻿body{
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	box-sizing: border-box;
 }
 .main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
 }
 .button{
-    padding: 20px;
-    font-weight: bold;
-
+	padding: 20px;
 }
-.btn{
-    display: block;
-    border: 0;
-    font-size: 16px;
-    line-height: 1;
-    padding: 16px 30px;
-    border-radius: 30px;
-    background: rgb(91, 91, 247);
-    color: white;
-    cursor: pointer;
-    transition: all 0.3s ease-in;
+a{
+	font-weight: bold;
+	padding: 16px 30px;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+	line-height: 1;
+	display: block;
+	font-size: 16px;
+}
+.frst-btn{
+	border: 0;
+	border-radius: 10px;
+	background: rgb(91, 91, 247);
+	color: white;
 }
 .scnd-btn{
-    display: block;
-    border: solid 2px;
-    font-size: 16px;
-    line-height: 1;
-    padding: 16px 30px;
-    border-radius: 30px;
-    background: white;
-    color: rgb(91, 91, 247);
-    cursor: pointer;
-    transition: all 0.3s ease-in;
+	border: 0;
+	border-radius: 30px;
+	background: rgb(91, 91, 247);
+	color: white;
 }
-.btn:focus{
-    
+.thrd-btn{
+	border: solid 2px;
+	border-radius: 30px;
+	background: white;
+	color: rgb(91, 91, 247);
 }
-.btn:hover{
-    background: rgb(48, 48, 170);
+.frst-btn:hover, .scnd-btn:hover{
+	background: rgb(5, 5, 216);
 }
-
-.scnd-btn:hover{
-    background: rgb(230, 230, 243);
-
+.thrd-btn:hover{
+	background: rgb(230, 230, 243);
 }
-
-/*  botuni moraju biti <a> element
-      moraju imati laganu tranziciju
-      na :hover stanje
-      koristiti :transition property
-    
-      ne odvojenu klasu za :hover
-    
-      DRY i box sizing
-    
-      redove prelomit sa <div> */
+/* botuni moraju biti <a> elementmoraju imati laganu tranzicijuna :hover stanjekoristiti :transition propertyne odvojenu klasu za :hoverDRY i box sizingredove prelomit sa <div> */
