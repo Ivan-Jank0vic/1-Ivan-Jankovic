@@ -32,16 +32,22 @@ a{
 	background: rgb(91, 91, 247);
 	color: white;
 }
-.third-btn{
+.third-btn, .fourth-btn{
 	border: solid 2px;
 	border-radius: 30px;
 	background: white;
 	color: rgb(91, 91, 247);
 }
+
 .first-btn:hover, .second-btn:hover{
 	background: rgb(5, 5, 216);
 }
 .third-btn:hover{
 	background: rgb(230, 230, 243);
+}
+.fourth-btn:hover{
+	background: rgb(221, 219, 219);
+	color: rgb(157, 157, 243);
+	cursor: not-allowed;
 }
 /* botuni moraju biti <a> elementmoraju imati laganu tranzicijuna :hover stanjekoristiti :transition propertyne odvojenu klasu za :hoverDRY i box sizingredove prelomit sa <div> */
