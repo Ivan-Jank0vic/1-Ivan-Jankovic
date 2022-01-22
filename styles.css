@@ -10,8 +10,7 @@
 }
 .button{
 	padding: 20px;
-}
-a{
+
 	font-weight: bold;
 	padding: 16px 30px;
 	cursor: pointer;
@@ -20,34 +19,35 @@ a{
 	display: block;
 	font-size: 16px;
 }
-.first-btn{
+
+.first{
 	border: 0;
 	border-radius: 10px;
 	background: rgb(91, 91, 247);
 	color: white;
 }
-.second-btn{
+.second{
 	border: 0;
 	border-radius: 30px;
 	background: rgb(91, 91, 247);
 	color: white;
 }
-.third-btn, .fourth-btn{
+.third, .fourth{
 	border: solid 2px;
 	border-radius: 30px;
 	background: white;
 	color: rgb(91, 91, 247);
 }
 
-.first-btn:hover, .second-btn:hover{
+.first:hover, .second:hover{
 	background: rgb(5, 5, 216);
 }
-.third-btn:hover{
+.third:hover{
 	background: rgb(230, 230, 243);
 }
-.fourth-btn:hover{
+.fourth:hover{
 	background: rgb(221, 219, 219);
 	color: rgb(157, 157, 243);
 	cursor: not-allowed;
 }
-/* botuni moraju biti <a> elementmoraju imati laganu tranzicijuna :hover stanjekoristiti :transition propertyne odvojenu klasu za :hoverDRY i box sizingredove prelomit sa <div> */
+/* botuni mora ju biti <a> elementmoraju imati laganu tranzicijuna :hover stanjekoristiti :transition propertyne odvojenu klasu za :hoverDRY i box sizingredove prelomit sa <div> */
